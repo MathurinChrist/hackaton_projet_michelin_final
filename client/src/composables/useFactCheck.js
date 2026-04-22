@@ -30,7 +30,12 @@ export function useFactCheck() {
         const startTime = Date.now()
 
         try {
-            const response = await axios.post('http://localhost:8000/api/fact-check', { url: viralUrl.value })
+            let base_url = import.meta.env.VITE_API_URL || 'http://54.37.159.216:8000/api'
+            if (base_url && !base_url.endsWith('/api')) {
+                base_url = base_url + '/api';
+            }
+            const API_URL = base_url
+            const response = await axios.post(`${API_URL}/fact-check`, { url: viralUrl.value })
             const duration = Date.now() - startTime
             const remainingDelay = Math.max(0, 3000 - duration)
 
@@ -50,7 +55,12 @@ export function useFactCheck() {
 
     const fetchRecent = async () => {
         try {
-            const response = await axios.get('http://localhost:8000/api/fact-check')
+            let base_url = import.meta.env.VITE_API_URL || 'http://54.37.159.216:8000/api'
+            if (base_url && !base_url.endsWith('/api')) {
+                base_url = base_url + '/api';
+            }
+            const API_URL = base_url
+            const response = await axios.get(`${API_URL}/fact-check`)
             recentAnalyses.value = response.data
         } catch (err) { }
     }
