@@ -12,7 +12,6 @@
       </div>
     </header>
 
-    <!-- Main Content -->
     <main v-if="currentTab === 'explorer'" class="animate-fade-in">
       <!-- Shortened Hero for Mobile -->
       <section class="bg-michelin-gray p-8 pt-12 pb-16">
@@ -28,7 +27,6 @@
         </p>
       </section>
 
-      <!-- Search & Filters -->
       <section class="px-6 -mt-6">
         <div class="bg-white rounded-2xl p-4 shadow-xl border border-michelin-border flex gap-3 focus-within:border-michelin-red transition-all">
           <SearchIcon class="w-5 h-5 text-michelin-dark/20" />
@@ -41,7 +39,6 @@
         </div>
       </section>
 
-      <!-- Results Grid (Single Column for Mobile) -->
       <section class="px-6 py-12">
         <div class="flex justify-between items-center mb-8">
           <h2 class="text-xl font-serif font-black uppercase tracking-tight">La Sélection</h2>
@@ -73,10 +70,16 @@
     <FactCheck v-else-if="currentTab === 'factcheck'" />
     <Vibes v-else-if="currentTab === 'vibes'" />
 
-    <!-- Bottom Nav -->
-    <BottomNav v-model:tab="currentTab" />
+    <button
+      v-if="currentTab !== 'explorer'"
+      @click="currentTab = 'explorer'"
+      class="fixed top-[72px] left-4 z-[60] w-10 h-10 rounded-full bg-white/90 backdrop-blur-md border border-[#E5E5E5] shadow-lg flex items-center justify-center active:scale-90 transition-all"
+    >
+      <ArrowLeft class="w-5 h-5 text-[#1a1a1a]" />
+    </button>
 
-    <!-- Install Prompt Mockup -->
+    <BottomNav v-model="currentTab" />
+
     <div v-if="showInstallPrompt" class="fixed top-20 left-6 right-6 bg-michelin-dark text-white p-6 rounded-3xl shadow-2xl z-[200] animate-bounce-in">
        <div class="flex items-start gap-4 mb-4">
           <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center flex-shrink-0">
@@ -87,17 +90,27 @@
              <p class="text-[10px] text-white/50">Accédez à l'expertise Michelin en un clic depuis votre écran d'accueil.</p>
           </div>
        </div>
+       <div v-if="showManualInstructions" class="mb-4 p-3 bg-white/10 rounded-xl">
+          <p class="text-[10px] text-white/80 leading-relaxed">
+            <strong>📱 Sur iPhone (Safari) :</strong><br/>
+            Appuyez sur <span class="inline-flex items-center bg-white/20 px-1.5 py-0.5 rounded text-[9px]">⬆️ Partager</span> puis <strong>"Sur l'écran d'accueil"</strong>
+          </p>
+          <p class="text-[10px] text-white/80 leading-relaxed mt-2">
+            <strong>📱 Sur Android (Chrome) :</strong><br/>
+            Appuyez sur <span class="inline-flex items-center bg-white/20 px-1.5 py-0.5 rounded text-[9px]">⋮ Menu</span> puis <strong>"Installer l'application"</strong>
+          </p>
+       </div>
        <div class="flex gap-3">
           <button @click="showInstallPrompt = false" class="flex-1 py-3 bg-white/10 rounded-xl text-[10px] font-bold uppercase tracking-widest">Plus tard</button>
-          <button class="flex-1 py-3 bg-michelin-red rounded-xl text-[10px] font-bold uppercase tracking-widest">Installer</button>
+          <button @click="installApp" class="flex-1 py-3 bg-michelin-red rounded-xl text-[10px] font-bold uppercase tracking-widest">Installer</button>
        </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { Menu, Search as SearchIcon, Star, ArrowUpRight } from 'lucide-vue-next'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { Menu, Search as SearchIcon, Star, ArrowUpRight, ArrowLeft } from 'lucide-vue-next'
 import { useApp } from './composables/useApp'
 import BottomNav from './components/layout/BottomNav.vue'
 import FactCheck from './components/FactCheck.vue'
@@ -110,11 +123,46 @@ const {
     filteredRestaurants
 } = useApp()
 
-const showInstallPrompt = ref(true)
+const showInstallPrompt = ref(false)
+const showManualInstructions = ref(false)
+let deferredPrompt = null
 
-// Mock installation prompt disappear after 5s
-setTimeout(() => { if(showInstallPrompt.value) showInstallPrompt.value = false }, 15000)
+const handleBeforeInstall = (e) => {
+  e.preventDefault()
+  deferredPrompt = e
+  showInstallPrompt.value = true
+  showManualInstructions.value = false
+}
+
+const installApp = async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt()
+    const { outcome } = await deferredPrompt.userChoice
+    if (outcome === 'accepted') {
+      showInstallPrompt.value = false
+    }
+    deferredPrompt = null
+  } else {
+    showManualInstructions.value = true
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('beforeinstallprompt', handleBeforeInstall)
+
+  setTimeout(() => {
+    if (!deferredPrompt && !showInstallPrompt.value) {
+      showInstallPrompt.value = true
+      showManualInstructions.value = false
+    }
+  }, 3000)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('beforeinstallprompt', handleBeforeInstall)
+})
 </script>
+
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
@@ -149,9 +197,6 @@ body {
   overscroll-behavior-y: contain;
 }
 
-/* ── Titres Mobile — Michelin Guide ── */
-
-/* H1 — Grand titre mobile. Light, serré */
 h1 {
   font-family: var(--font-sans);
   font-weight: 300;
@@ -162,7 +207,6 @@ h1 {
   margin: 0;
 }
 
-/* H2 — Titre section */
 h2 {
   font-family: var(--font-sans);
   font-weight: 400;
@@ -173,7 +217,6 @@ h2 {
   margin: 0;
 }
 
-/* H3 — Titre de bloc */
 h3 {
   font-family: var(--font-sans);
   font-weight: 600;
@@ -184,7 +227,6 @@ h3 {
   margin: 0;
 }
 
-/* H4 — Nom de restaurant */
 h4 {
   font-family: var(--font-serif);
   font-weight: 400;

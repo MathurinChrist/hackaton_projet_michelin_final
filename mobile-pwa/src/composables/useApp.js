@@ -3,7 +3,11 @@ import axios from 'axios'
 import { Check, Star, Flame, Leaf, Globe, Award, Search, Sparkles } from 'lucide-vue-next'
 
 export function useApp() {
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
+    let base_url = import.meta.env.VITE_API_URL || 'http://54.37.159.216:8000/api'
+    if (base_url && !base_url.endsWith('/api')) {
+        base_url = base_url + '/api';
+    }
+    const API_URL = base_url
     const iconMap = {
         check: markRaw(Check),
         star: markRaw(Star),
