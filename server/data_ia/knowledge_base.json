@@ -1,0 +1,1029 @@
+[
+    {
+        "name": "Guy Savoy",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "Restaurant 3 étoiles Michelin, référence absolue de la gastronomie française.",
+        "description": "Une expérience gastronomique d'exception à la Monnaie de Paris, centrée sur la haute cuisine française contemporaine.",
+        "baseScore": 9.8,
+        "searchKeywords": "guy savoy,monnaie,gastronomique,3 etoiles michelin",
+        "specialties": "Soupe d'artichaut à la truffe noire, brioche feuilletée aux champignons et truffes, Bar de ligne 'petit bateau' en écailles grillées.",
+        "atmosphere": "Majestueuse et feutrée. Situé dans les salons historiques de la Monnaie de Paris avec vue sur la Seine."
+    },
+    {
+        "name": "Plénitude – Cheval Blanc Paris",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, cuisine d'Arnaud Donckele axée sur les sauces.",
+        "description": "Une des tables les plus techniques du monde, centrée sur l'émotion et la profondeur des sauces.",
+        "baseScore": 9.9,
+        "searchKeywords": "plenitude,cheval blanc,arnaud donckele",
+        "specialties": "Sauces 'Absolues', Turbot à la nage d'algues, Volaille de Bresse rôtie aux herbes.",
+        "atmosphere": "Luxueuse, intime et contemporaine au sein du palace Cheval Blanc."
+    },
+    {
+        "name": "Le Cinq – Four Seasons George V",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "Restaurant 3 étoiles Michelin, luxe et excellence classique.",
+        "description": "Une cuisine française ultra précise dans un cadre hôtelier parmi les plus prestigieux de Paris.",
+        "baseScore": 9.7,
+        "searchKeywords": "le cinq,george v,four seasons,3 etoiles",
+        "specialties": "Oignon de Roscoff en textures, Lièvre à la royale, Pigeon de Bresse au sang.",
+        "atmosphere": "Splendeur classique, dorures, lustres en cristal et service de classe mondiale."
+    },
+    {
+        "name": "Arpège",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "Cuisine végétale iconique d'Alain Passard.",
+        "description": "Une des premières grandes tables végétales étoilées, centrée sur les légumes des potagers du chef.",
+        "baseScore": 9.6,
+        "searchKeywords": "arpege,alain passard,vegetal",
+        "specialties": "Bouquet de roses de tarte aux pommes, Carpaccio de betterave à l'huile de géranium, Jardinière de légumes du potager.",
+        "atmosphere": "Minimaliste, lumineuse et centrée sur l'essentiel : le produit brut."
+    },
+    {
+        "name": "L'Ambroisie",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "Une des tables les plus classiques et prestigieuses de Paris.",
+        "description": "Cuisine française traditionnelle d'une précision extrême dans un cadre historique de la Place des Vosges.",
+        "baseScore": 9.8,
+        "searchKeywords": "ambroisie,place des vosges,bernard pacaud",
+        "specialties": "Feuillantine de langoustines aux graines de sésame, Escalope de bar à l'émincé de truffes fraîches.",
+        "atmosphere": "Ancienne demeure aristocratique, calme olympien, nappage blanc immaculé."
+    },
+    {
+        "name": "Pierre Gagnaire",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "Cuisine d'avant-garde et artistique.",
+        "description": "Une expérience culinaire créative et émotionnelle, où les plats deviennent des compositions.",
+        "baseScore": 9.7,
+        "searchKeywords": "pierre gagnaire,avant garde,3 etoiles",
+        "specialties": "Le Grand Menu en plusieurs satellites, Turbot à la réglisse, Soufflé au Grand Marnier.",
+        "atmosphere": "Contemporaine, artistique et surprenante."
+    },
+    {
+        "name": "Le Meurice",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, cuisine d'Alain Ducasse dans un décor Versaillais.",
+        "description": "Gastronomie française classique revisitée dans l'un des hôtels les plus élégants de Paris.",
+        "baseScore": 9.5,
+        "searchKeywords": "le meurice,alain ducasse,2 etoiles,paris",
+        "specialties": "Légumes du potager de la Reine, Cookpot de petit épeautre, Volaille de Bresse aux écrevisses.",
+        "atmosphere": "Grand Siècle flamboyant, inspiré du Salon de la Paix de Versailles, plafonds peints et service palatial."
+    },
+    {
+        "name": "Septime",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "Bistronomie moderne 1 étoile Michelin.",
+        "description": "Cuisine contemporaine, durable et créative dans une ambiance minimaliste.",
+        "baseScore": 9.5,
+        "searchKeywords": "septime,bertrand grebaut,bistronomie",
+        "atmosphere": "Minimaliste et décontractée, tables en bois brut, lumière tamisée et énergie de quartier vivante dans le XIe."
+    },
+    {
+        "name": "Kei",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, fusion franco-japonaise unique.",
+        "description": "Kei Kobayashi mêle avec génie la technique française et l'âme japonaise dans chaque assiette.",
+        "baseScore": 9.6,
+        "searchKeywords": "kei,kobayashi,franco-japonais,3 etoiles",
+        "atmosphere": "Épurée et zen, mêlant chaleur française et rigueur japonaise dans un écrin discret du 1er arrondissement."
+    },
+    {
+        "name": "Taillevent",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "Grande institution de la gastronomie parisienne, 1 étoile Michelin.",
+        "description": "Service irréprochable, cave légendaire et cuisine française classique dans un décor boisé et chaleureux.",
+        "baseScore": 9.2,
+        "searchKeywords": "taillevent,classique,institution,paris",
+        "atmosphere": "Feutrée et bourgeoise, boiseries sombres, service d'une correction absolue, institution intemporelle du VIIIe."
+    },
+    {
+        "name": "Frenchie",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, cuisine de marché créative.",
+        "description": "Greg Marchand propose une cuisine inventive aux influences internationales dans un cadre intimiste.",
+        "baseScore": 9.3,
+        "searchKeywords": "frenchie,greg marchand,2 etoiles,inventif",
+        "atmosphere": "Intime et urbaine, cave voûtée transformée en salle confidentielle dans une ruelle du Sentier."
+    },
+    {
+        "name": "Le Grand Véfour",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cadre historique exceptionnel au Palais-Royal.",
+        "description": "L'un des plus beaux restaurants de Paris, cuisine française raffinée dans un décor du XVIIIe siècle.",
+        "baseScore": 9.0,
+        "searchKeywords": "grand vefour,palais royal,historique",
+        "atmosphere": "Somptueux décor Empire classé monument historique, miroirs, peintures sous verre et galeries du Palais-Royal."
+    },
+    {
+        "name": "Sola",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, fusion franco-japonaise dans une cave voûtée.",
+        "description": "Cuisine créative mêlant produits français et techniques japonaises dans un cadre médiéval parisien.",
+        "baseScore": 8.9,
+        "searchKeywords": "sola,franco-japonais,cave,fusion",
+        "atmosphere": "Cave voûtée médiévale au cœur du Ve, pierres apparentes et bougies pour une expérience hors du temps."
+    },
+    {
+        "name": "Le Clarence",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, hôtel particulier du Prince Robert de Luxembourg.",
+        "description": "Christophe Pelé signe une cuisine expressive et sensible dans un écrin d'exception.",
+        "baseScore": 9.4,
+        "searchKeywords": "le clarence,christophe pele,2 etoiles,hotel particulier",
+        "atmosphere": "Hôtel particulier haussmannien luxueux, mobilier chiné et art contemporain pour une élégance très personnelle."
+    },
+    {
+        "name": "Maison Rostang",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, grande maison familiale de la gastronomie parisienne.",
+        "description": "Michel Rostang et sa famille perpétuent une tradition gastronomique exigeante avec chaleur et générosité.",
+        "baseScore": 9.2,
+        "searchKeywords": "rostang,familial,2 etoiles,tradition",
+        "atmosphere": "Chaleureuse et familiale, vitraux Art nouveau, atmosphère de maison bourgeoise accueillante dans le XVIIe."
+    },
+    {
+        "name": "Passage 53",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin dans le passage des Panoramas.",
+        "description": "Shinichi Sato offre une cuisine épurée, technique et poétique dans un passage couvert historique.",
+        "baseScore": 9.3,
+        "searchKeywords": "passage 53,panoramas,sato,epure",
+        "atmosphere": "Confidentielle et poétique, niché au cœur du passage des Panoramas, cadre parisien du XIXe siècle préservé."
+    },
+    {
+        "name": "Substance",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine de la mer sophistiquée.",
+        "description": "Matthias Marc excelle dans la mise en valeur des produits marins avec une grande précision technique.",
+        "baseScore": 8.9,
+        "searchKeywords": "substance,matthias marc,mer,poisson",
+        "atmosphere": "Épurée et contemporaine, salle sobre aux tonalités marines dans un décor minimaliste du VIIIe."
+    },
+    {
+        "name": "Comice",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, table intimiste et franco-canadienne.",
+        "description": "Un duo franco-canadien propose une cuisine sincère, généreuse et bien exécutée dans le XVIe arrondissement.",
+        "baseScore": 8.8,
+        "searchKeywords": "comice,franco-canadien,intimiste,16eme",
+        "atmosphere": "Intimiste et cosy, salle à taille humaine joliment décorée avec une attention particulière portée au bien-être des convives."
+    },
+    {
+        "name": "Le Jardin de l'Esplanade",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, restaurant avec jardin privatif.",
+        "description": "Cuisine élégante servie dans un jardin secret du VIIe arrondissement, cadre unique à Paris.",
+        "baseScore": 8.7,
+        "searchKeywords": "esplanade,jardin,7eme,paris",
+        "atmosphere": "Oasis végétale secrète au cœur du VIIe, jardin privatif et terrasse verdoyante, rare havre de paix parisien."
+    },
+    {
+        "name": "EST – Éric Frechon",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, brasserie gastronomique d'Éric Frechon.",
+        "description": "Le chef triplement étoilé du Bristol signe ici une cuisine brasserie haut de gamme accessible.",
+        "baseScore": 8.8,
+        "searchKeywords": "est,eric frechon,brasserie,gastronomique",
+        "atmosphere": "Brasserie contemporaine lumineuse et animée, cadre Art déco revisité dans la gare de l'Est, énergie urbaine assumée."
+    },
+    {
+        "name": "Akrame",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine inventive et personnelle.",
+        "description": "Akrame Benallal signe une cuisine audacieuse, sans esbroufe, où chaque détail compte.",
+        "baseScore": 8.9,
+        "searchKeywords": "akrame,benallal,inventif,1 etoile",
+        "atmosphere": "Sobre et élégante, salle confidentielle aux lignes nettes dans le VIIIe, propice à la concentration sur l'assiette."
+    },
+    {
+        "name": "Il Carpaccio – Le Royal Monceau",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, meilleure table italienne de Paris selon le guide.",
+        "description": "Cuisine italienne d'exception dans le cadre luxueux du Royal Monceau, avec une carte des vins remarquable.",
+        "baseScore": 9.0,
+        "searchKeywords": "carpaccio,royal monceau,italien,1 etoile",
+        "atmosphere": "Luxe palace discret, décor signé Philippe Starck, élégance italienne revisitée dans l'écrin du Royal Monceau."
+    },
+    {
+        "name": "Hélène Darroze",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, cuisine du terroir gascon à Paris.",
+        "description": "Hélène Darroze exprime ses racines landaises et gasconnes avec élégance et générosité.",
+        "baseScore": 9.1,
+        "searchKeywords": "helene darroze,gascogne,landes,2 etoiles",
+        "atmosphere": "Chaleureuse et raffinée, tons terracotta et bois clairs évoquant le Sud-Ouest dans un cadre parisien élégant."
+    },
+    {
+        "name": "Thoumieux – Jean-François Piège",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, brasserie parisienne revisitée.",
+        "description": "Jean-François Piège redonne ses lettres de noblesse à la brasserie traditionnelle dans un cadre Art déco.",
+        "baseScore": 8.7,
+        "searchKeywords": "thoumieux,piege,brasserie,art deco",
+        "atmosphere": "Brasserie Art déco vibrante et animée, cuirs rouge, laitons dorés et effervescence typiquement parisienne du VIIe."
+    },
+    {
+        "name": "Les Tablettes de Jean-Louis Nomicos",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine méditerranéenne raffinée.",
+        "description": "Cuisine provençale et méditerranéenne exécutée avec précision dans un cadre cosy du XVIe arrondissement.",
+        "baseScore": 8.6,
+        "searchKeywords": "tablettes,nomicos,mediterraneen,provence",
+        "atmosphere": "Cosy et lumineuse, tons ensoleillés méditerranéens dans une salle intime et chaleureuse du XVIe."
+    },
+    {
+        "name": "Grand Restaurant – Jean-François Piège",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, temple de la cuisine personnelle.",
+        "description": "Un chef theatre unique où Jean-François Piège s'exprime en toute liberté dans un restaurant à sa mesure.",
+        "baseScore": 9.4,
+        "searchKeywords": "grand restaurant,piege,2 etoiles,chef theatre",
+        "atmosphere": "Théâtrale et intime à la fois, salle-écrin sculptée sur mesure où tout est pensé autour du chef en son centre."
+    },
+    {
+        "name": "Sylvestre – Hôtel Thoumieux",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, cuisine de haute précision.",
+        "description": "Sylvestre Wahid signe une cuisine d'une grande technicité, inspirée de ses voyages et racines.",
+        "baseScore": 9.2,
+        "searchKeywords": "sylvestre,wahid,thoumieux,2 etoiles",
+        "atmosphere": "Élégante et confidentielle, décor contemporain signé India Mahdavi à l'étage discret de l'hôtel Thoumieux."
+    },
+    {
+        "name": "La Scène – Prince de Galles",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, cuisine innovante dans un palace.",
+        "description": "Stéphanie Le Quellec révèle une cuisine intuitive et audacieuse dans le cadre Art déco du Prince de Galles.",
+        "baseScore": 9.3,
+        "searchKeywords": "la scene,prince de galles,stephanie le quellec,2 etoiles",
+        "atmosphere": "Art déco raffiné et lumineux, verrière centrale du palace Prince de Galles, élégance intemporelle des années 30."
+    },
+    {
+        "name": "Hexagone",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, gastronomie française contemporaine.",
+        "description": "Mathieu Pacaud exprime sa vision de la cuisine française moderne dans un cadre sobre et élégant.",
+        "baseScore": 8.8,
+        "searchKeywords": "hexagone,mathieu pacaud,contemporain,16eme",
+        "atmosphere": "Sobre et contemporaine, lignes épurées et palette neutre dans un cadre discret et élégant du XVIe."
+    },
+    {
+        "name": "Virtus",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, jeune table créative franco-brésilienne.",
+        "description": "Marcelo Di Giacomo et Chiara Pavan proposent une cuisine sans frontières, très personnelle et végétale.",
+        "baseScore": 8.7,
+        "searchKeywords": "virtus,franco-bresilien,vegetal,creativ",
+        "atmosphere": "Conviviale et chaleureuse, petite salle dans le XIIe avec une énergie de jeune table créative et passionnée."
+    },
+    {
+        "name": "Table – Bruno Verjus",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, cuisine du produit brut.",
+        "description": "Bruno Verjus sublime les meilleurs produits du monde avec une approche minimaliste et instinctive.",
+        "baseScore": 9.6,
+        "searchKeywords": "table,bruno verjus,produit,minimaliste",
+        "atmosphere": "Brute et sensuelle, comptoir ouvert sur la cuisine, mobilier simple et bois brut dans une ancienne boutique du XIIe."
+    },
+    {
+        "name": "Étude",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine de caractère dans le XVIe.",
+        "description": "Keisuke Yamagishi signe une cuisine franco-japonaise de haute volée dans un cadre intimiste.",
+        "baseScore": 8.9,
+        "searchKeywords": "etude,yamagishi,franco-japonais,16eme",
+        "atmosphere": "Intimiste et feutrée, petite salle confidentielle aux tons sombres, idéale pour un dîner silencieux et concentré."
+    },
+    {
+        "name": "Divellec",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine de la mer intemporelle.",
+        "description": "Mathieu Pacaud prolonge l'héritage de la maison Divellec avec une cuisine maritime élégante.",
+        "baseScore": 9.0,
+        "searchKeywords": "divellec,mer,poisson,mathieu pacaud",
+        "atmosphere": "Marine et classique, décor sobre évoquant l'élégance d'un yacht privé à deux pas de l'Assemblée nationale."
+    },
+    {
+        "name": "Prunier",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, maison historique spécialisée dans le caviar.",
+        "description": "Institution parisienne depuis 1872, Prunier célèbre le caviar et les produits de la mer dans un décor Art déco.",
+        "baseScore": 9.1,
+        "searchKeywords": "prunier,caviar,mer,art deco,historique",
+        "atmosphere": "Art déco classé des années 1920, mosaïques et marbres d'époque, institution parisienne d'un autre âge sublimement préservée."
+    },
+    {
+        "name": "Pages",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine franco-japonaise épurée.",
+        "description": "Ryuji Teshima marie avec subtilité les produits français et les techniques nippones.",
+        "baseScore": 8.8,
+        "searchKeywords": "pages,teshima,franco-japonais,epure",
+        "atmosphere": "Zen et minimaliste, comptoir en bois clair face à la cuisine ouverte, calme absolu et attention portée sur le geste du chef."
+    },
+    {
+        "name": "Quinsou",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine végétale et de saison.",
+        "description": "Antonin Bonnet déploie une cuisine engagée, végétale et gourmande dans le quartier Saint-Germain.",
+        "baseScore": 8.7,
+        "searchKeywords": "quinsou,antonin bonnet,vegetal,saint-germain",
+        "atmosphere": "Chaleureuse et engagée, petite salle naturelle aux matières brutes et végétales dans une ruelle tranquille de Saint-Germain."
+    },
+    {
+        "name": "Neso",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, jeune talent de la bistronomie.",
+        "description": "Giovanni Passerini propose une table naturelle, sincère et généreuse dans un cadre décontracté.",
+        "baseScore": 8.6,
+        "searchKeywords": "neso,passerini,bistronomie,naturel",
+        "atmosphere": "Décontractée et naturelle, carrelages au sol, vin nature en carafe et bonne humeur générale dans le IXe."
+    },
+    {
+        "name": "Alan Geaam",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine franco-libanaise de caractère.",
+        "description": "Alan Geaam exprime ses origines libanaises à travers une cuisine française précise et sensible.",
+        "baseScore": 8.9,
+        "searchKeywords": "alan geaam,franco-libanais,liban,1 etoile",
+        "atmosphere": "Intime et soignée, salle cosy aux tons chauds évoquant subtilement le Levant dans un cadre parisien raffiné du XVIe."
+    },
+    {
+        "name": "Abri",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, tiny table confidentielle.",
+        "description": "Katsuaki Okiyama régale une dizaine de couverts par service avec une cuisine franco-japonaise de précision.",
+        "baseScore": 9.0,
+        "searchKeywords": "abri,okiyama,franco-japonais,confidentiel",
+        "atmosphere": "Ultra-confidentielle, comptoir de dix couverts face au chef dans une minuscule salle du Xe, expérience exclusive et silencieuse."
+    },
+    {
+        "name": "Brutos",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine du feu et des braises.",
+        "description": "Lucas Felzine maîtrise le feu avec brio pour une cuisine carnée et végétale d'une grande sincérité.",
+        "baseScore": 8.7,
+        "searchKeywords": "brutos,feu,braise,lucas felzine",
+        "atmosphere": "Rustique et brute, odeur de braise omniprésente, tables en bois et lumière de feu dans un cadre volontairement primitif."
+    },
+    {
+        "name": "Marcore",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine française classique revisitée.",
+        "description": "Marc Favier signe une cuisine de grand-mère réinventée, entre mémoire et modernité.",
+        "baseScore": 8.8,
+        "searchKeywords": "marcore,marc favier,classique,revisited",
+        "atmosphere": "Nostalgique et moderne, cadre chaleureux mêlant bibelots d'époque et lignes contemporaines dans une maison pleine de souvenirs."
+    },
+    {
+        "name": "Baieta",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine niçoise et méditerranéenne.",
+        "description": "Julia Sedefdjian, plus jeune étoilée de France, revisite la cuisine niçoise avec fraîcheur et spontanéité.",
+        "baseScore": 9.0,
+        "searchKeywords": "baieta,sedefdjian,nice,mediterraneen",
+        "atmosphere": "Ensoleillée et spontanée, salle lumineuse aux couleurs de la Méditerranée, énergie joyeuse et cuisine généreuse au cœur du Ve."
+    },
+    {
+        "name": "Le Gabriel – La Réserve Paris",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin dans un palace haussmannien.",
+        "description": "Jérôme Banctel propose une cuisine sensible et précise dans l'un des hôtels les plus exclusifs de Paris.",
+        "baseScore": 9.4,
+        "searchKeywords": "le gabriel,la reserve,banctel,2 etoiles",
+        "atmosphere": "Palais haussmannien discret et ultraluxueux, salons boisés aux hauts plafonds, intimité et silence absolus dans le VIIIe."
+    },
+    {
+        "name": "Le 39V",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, rooftop gastronomique avenue George V.",
+        "description": "Frédéric Vardon propose une cuisine française contemporaine avec vue sur les toits de Paris.",
+        "baseScore": 9.0,
+        "searchKeywords": "39v,vardon,george v,rooftop,vue",
+        "atmosphere": "Panoramique et suspendue, rooftop discret au-dessus de l'avenue George V avec vue sur les toits parisiens, très exclusive."
+    },
+    {
+        "name": "Nakatani",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, kaiseki français très couru.",
+        "description": "Shinsuke Nakatani adapte le rituel japonais du kaiseki aux produits d'exception de la gastronomie française.",
+        "baseScore": 9.1,
+        "searchKeywords": "nakatani,kaiseki,franco-japonais,shinsuke",
+        "atmosphere": "Ritualisée et apaisante, petite salle aux accents japonais dans le VIIe, service cérémonieux et concentré sur l'instant."
+    },
+    {
+        "name": "Pertinence",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, duo franco-japonais créatif.",
+        "description": "Ryunosuke Naito et Kwen Liew proposent un menu unique alliant intuition française et rigueur japonaise.",
+        "baseScore": 8.9,
+        "searchKeywords": "pertinence,naito,franco-japonais,duo",
+        "atmosphere": "Minimaliste et précise, cadre épuré aux teintes naturelles dans le 1er arrondissement, dialogue subtil entre deux cultures."
+    },
+    {
+        "name": "Sellae",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine végétale audacieuse.",
+        "description": "Thomas Coisne explore une cuisine à dominante végétale avec audace et cohérence dans le XIIIe.",
+        "baseScore": 8.6,
+        "searchKeywords": "sellae,vegetal,13eme,thomas coisne",
+        "atmosphere": "Naturelle et engagée, décor de matières brutes et végétales, ambiance décontractée dans un quartier populaire du XIIIe."
+    },
+    {
+        "name": "Pilgrim",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, table nature et sauvage.",
+        "description": "Bertrand Grébaut et Théo Pourriat ouvrent un second restaurant plus naturel et instinctif que Septime.",
+        "baseScore": 8.8,
+        "searchKeywords": "pilgrim,grebaut,nature,sauvage",
+        "atmosphere": "Sauvage et instinctive, matières brutes et végétation présente, atmosphère de forêt urbaine habitée dans le XIe."
+    },
+    {
+        "name": "Papillon",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, gastronomie française discrète et excellente.",
+        "description": "Christophe Saintagne signe une cuisine juste et instinctive, loin des modes, dans un cadre chaleureux.",
+        "baseScore": 8.7,
+        "searchKeywords": "papillon,saintagne,discret,français",
+        "atmosphere": "Discrète et sincère, salle à taille humaine sans ostentation dans le IXe, atmosphère de restaurant de quartier gastronomique."
+    },
+    {
+        "name": "La Dame de Pic – Tour Eiffel",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, table parisienne d'Anne-Sophie Pic.",
+        "description": "La seule cheffe triplement étoilée de France déploie sa signature aromatique dans un cadre raffiné.",
+        "baseScore": 9.2,
+        "searchKeywords": "dame de pic,anne-sophie pic,aromatique,1 etoile",
+        "atmosphere": "Féminine et raffinée, tons blancs et roses poudre, mobilier design dans l'hôtel de Berri à deux pas des Champs-Élysées."
+    },
+    {
+        "name": "Le Vague d'Or – Résidence de la Pinède",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, Saint-Tropez.",
+        "description": "Arnaud Donckele signe une cuisine provençale d'une profondeur unique face à la mer à Saint-Tropez.",
+        "baseScore": 9.8,
+        "searchKeywords": "vague d'or,saint-tropez,donckele,3 etoiles",
+        "atmosphere": "Provençale et marine, terrasse les pieds dans l'eau face à la baie de Saint-Tropez, douceur de vivre méditerranéenne absolue."
+    },
+    {
+        "name": "Paul Bocuse – L'Auberge du Pont de Collonges",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, symbole de la cuisine lyonnaise.",
+        "description": "La maison du pape de la gastronomie française, perpétuant son héritage culinaire depuis Lyon.",
+        "baseScore": 9.5,
+        "searchKeywords": "paul bocuse,lyon,pont de collonges,3 etoiles,lyonnaise",
+        "atmosphere": "Musée vivant de la gastronomie française, façade peinte aux portraits du chef, intérieur festif et tricolore au bord de la Saône."
+    },
+    {
+        "name": "Maison Troisgros",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin depuis plus de 50 ans.",
+        "description": "La famille Troisgros perpétue à Ouches une tradition culinaire d'exception qui a traversé les générations.",
+        "baseScore": 9.7,
+        "searchKeywords": "troisgros,ouches,roanne,3 etoiles,famille",
+        "atmosphere": "Domaine familial immersif, maison de maître et jardin potager à Ouches, atmosphère de résidence privée ouverte aux convives."
+    },
+    {
+        "name": "La Maison des Bois – Marc Veyrat",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, cuisine alpine et herbes sauvages.",
+        "description": "Marc Veyrat revisite la cuisine savoyarde à travers les herbes et plantes alpines cueillies chaque matin.",
+        "baseScore": 9.6,
+        "searchKeywords": "marc veyrat,savoie,herbes,alpin,3 etoiles",
+        "atmosphere": "Chalet alpin authentique en pleine montagne, vue sur les sommets enneigés, immersion totale dans la nature savoyarde."
+    },
+    {
+        "name": "Régis et Jacques Marcon",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, cuisine des champignons et de l'Ardèche.",
+        "description": "Père et fils subliment les champignons et les produits ardéchois dans un cadre vertigineux et naturel.",
+        "baseScore": 9.5,
+        "searchKeywords": "marcon,ardeche,champignons,3 etoiles,saint-bonnet",
+        "atmosphere": "Vertigineuse et minérale, perchée au-dessus des gorges ardéchoises avec une vue à couper le souffle sur la vallée."
+    },
+    {
+        "name": "Auberge de l'Ill",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, symbole de l'Alsace gastronomique.",
+        "description": "La famille Haeberlin perpétue depuis Illhaeusern une cuisine alsacienne raffinée reconnue dans le monde entier.",
+        "baseScore": 9.5,
+        "searchKeywords": "auberge de l'ill,alsace,haeberlin,3 etoiles,illhaeusern",
+        "atmosphere": "Alsacienne et bucolique, maison à colombages au bord de l'Ill, jardin fleuri et atmosphère de maison familiale d'exception."
+    },
+    {
+        "name": "L'Assiette Champenoise",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, Arnaud Lallement à Reims.",
+        "description": "Cuisine champenoise de très haut vol avec une carte des vins centrée sur le champagne.",
+        "baseScore": 9.6,
+        "searchKeywords": "assiette champenoise,lallement,reims,champagne,3 etoiles",
+        "atmosphere": "Champenoise et lumineuse, hôtel-restaurant aux lignes contemporaines dans les environs de Reims, élégance sobre et champêtre."
+    },
+    {
+        "name": "La Bouitte",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, chalet gastronomique savoyard.",
+        "description": "René et Maxime Meilleur subliment les Alpes dans un chalet authentique de Saint-Martin-de-Belleville.",
+        "baseScore": 9.6,
+        "searchKeywords": "la bouitte,meilleur,savoie,alpes,3 etoiles",
+        "atmosphere": "Chalet savoyard authentique et cosy, mobilier sculpté, peaux de bêtes et chaleur du bois dans un village alpin préservé."
+    },
+    {
+        "name": "Flocons de Sel",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Megève.",
+        "description": "Emmanuel Renaut propose une cuisine alpine et lacustre d'une grande poésie dans un chalet à Megève.",
+        "baseScore": 9.5,
+        "searchKeywords": "flocons de sel,renaut,megeve,alpes,lacustre",
+        "atmosphere": "Poétique et montagnarde, chalet contemporain dominant Megève, panorama alpin et lumière dorée des sommets à chaque saison."
+    },
+    {
+        "name": "Yannick Alléno – Pavillon Ledoyen",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, Yannick Alléno dans un bâtiment historique.",
+        "description": "Yannick Alléno révolutionne la sauce et l'extraction dans une cuisine française de très haute précision.",
+        "baseScore": 9.8,
+        "searchKeywords": "yannick alleno,ledoyen,3 etoiles,extraction,sauce",
+        "atmosphere": "Historique et majestueuse, pavillon du XVIIIe siècle aux Champs-Élysées, salons dorés et jardins d'apparat face à la Seine."
+    },
+    {
+        "name": "Pic – Anne-Sophie Pic",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Valence.",
+        "description": "La seule cheffe française triplement étoilée déploie un univers aromatique unique à Valence.",
+        "baseScore": 9.7,
+        "searchKeywords": "pic,anne-sophie pic,valence,3 etoiles,aromes",
+        "atmosphere": "Féminine et botanique, jardin intérieur traversant la maison familiale de Valence, lumière naturelle et végétation enveloppante."
+    },
+    {
+        "name": "Michel Bras",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Laguiole, père de la cuisine végétale.",
+        "description": "Michel et Sébastien Bras ont inventé le gargouillou et une cuisine de l'Aubrac profondément ancrée dans la nature.",
+        "baseScore": 9.6,
+        "searchKeywords": "michel bras,laguiole,aubrac,nature,gargouillou",
+        "atmosphere": "Austère et sublime, bâtiment de verre et d'acier posé sur le plateau de l'Aubrac, vue infinie sur les volcans et les prairies."
+    },
+    {
+        "name": "Mirazur",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin, meilleur restaurant du monde en 2019.",
+        "description": "Mauro Colagreco cultive ses propres légumes et herbes en vue de la Méditerranée à Menton.",
+        "baseScore": 9.9,
+        "searchKeywords": "mirazur,colagreco,menton,3 etoiles,meilleur monde",
+        "atmosphere": "Édenique et lumineuse, terrasses en cascade sur les hauteurs de Menton avec vue spectaculaire sur la Méditerranée et les jardins."
+    },
+    {
+        "name": "Le Pré Catelan",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin dans le Bois de Boulogne.",
+        "description": "Frédéric Anton signe une cuisine française classique et élégante dans un pavillon de rêve.",
+        "baseScore": 9.6,
+        "searchKeywords": "pre catelan,frederic anton,bois de boulogne,3 etoiles",
+        "atmosphere": "Féerique et hors du temps, pavillon Belle Époque entouré de frondaisons au cœur du Bois de Boulogne, magique en soirée."
+    },
+    {
+        "name": "L'Épuisette",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin à Marseille, cuisine de la mer.",
+        "description": "Guillaume Sourrieu sublime les poissons de Méditerranée depuis un rocher face aux îles du Frioul.",
+        "baseScore": 9.0,
+        "searchKeywords": "epuisette,marseille,mer,poisson,sourrieu",
+        "atmosphere": "Spectaculaire et marine, restaurant posé sur les rochers des Goudes face aux îles du Frioul, Méditerranée à portée de main."
+    },
+    {
+        "name": "Une Table au Sud",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin à Marseille.",
+        "description": "Ludovic Turac propose une cuisine méditerranéenne ensoleillée face au Vieux-Port.",
+        "baseScore": 8.8,
+        "searchKeywords": "une table au sud,marseille,vieux-port,mediterraneen",
+        "atmosphere": "Ensoleillée et provençale, vue panoramique sur le Vieux-Port depuis les hauteurs, terrasse enivrante à la lumière du Sud."
+    },
+    {
+        "name": "Alexandre – Mas de Chassagne",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin en Ardèche.",
+        "description": "Michel Kayser cultive une cuisine du territoire ardéchois avec finesse dans un cadre de mas provençal.",
+        "baseScore": 9.1,
+        "searchKeywords": "alexandre,kayser,ardeche,mas,2 etoiles",
+        "atmosphere": "Mas provençal authentique, pierre et garrigue, jardin luxuriant et terrasse ombragée dans un écrin de verdure ardéchois."
+    },
+    {
+        "name": "Château de la Chèvre d'Or",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin à Eze, vue mer.",
+        "description": "Cuisine méditerranéenne raffinée avec une vue imprenable sur la Méditerranée depuis le village perché d'Eze.",
+        "baseScore": 9.2,
+        "searchKeywords": "chevre d'or,eze,2 etoiles,vue mer,mediterraneen",
+        "atmosphere": "Vertigineuse et romanesque, terrasse en nid d'aigle dans le village médiéval d'Eze avec vue à 360° sur la Méditerranée."
+    },
+    {
+        "name": "Le Louis XV – Alain Ducasse Monaco",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Monaco depuis 1990.",
+        "description": "Le Louis XV a révolutionné la cuisine méditerranéenne sous la direction d'Alain Ducasse depuis l'Hôtel de Paris.",
+        "baseScore": 9.8,
+        "searchKeywords": "louis xv,alain ducasse,monaco,3 etoiles,mediterraneen",
+        "atmosphere": "Palais princier opulent, ors et marbres de l'Hôtel de Paris, service en gants blancs et luxe monégasque dans toute sa splendeur."
+    },
+    {
+        "name": "Le Benkay",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, meilleure table japonaise de Paris.",
+        "description": "Teppanyaki et cuisine japonaise traditionnelle avec vue sur la Seine depuis le Novotel Tour Eiffel.",
+        "baseScore": 8.8,
+        "searchKeywords": "benkay,japonais,teppanyaki,seine,1 etoile",
+        "atmosphere": "Japonaise et panoramique, comptoir de teppanyaki face aux fourneaux et grandes baies vitrées sur la Seine et la Tour Eiffel."
+    },
+    {
+        "name": "Maison Lameloise",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Chagny, Bourgogne.",
+        "description": "Eric Pras perpétue la tradition de la maison Lameloise avec une cuisine bourguignonne d'exception.",
+        "baseScore": 9.5,
+        "searchKeywords": "lameloise,chagny,bourgogne,3 etoiles,eric pras",
+        "atmosphere": "Bourguignonne et bourgeoise, maison de maître aux volumes généreux dans le bourg de Chagny, élégance provinciale assumée."
+    },
+    {
+        "name": "Georges Blanc",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Vonnas, Bresse.",
+        "description": "Georges Blanc perpétue un empire culinaire dans le pays de Bresse avec une cuisine classique et généreuse.",
+        "baseScore": 9.4,
+        "searchKeywords": "georges blanc,vonnas,bresse,3 etoiles,classique",
+        "atmosphere": "Empire bressan festif, village gastronomique entier autour de la maison Blanc, générosité et hospitalité bourguignonne légendaire."
+    },
+    {
+        "name": "Bocuse d'Or – Candidat Français",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, représentant de la gastronomie française à l'international.",
+        "description": "Un chef emblématique formé à l'école lyonnaise portant les couleurs françaises dans les compétitions mondiales.",
+        "baseScore": 9.1,
+        "searchKeywords": "bocuse d'or,lyon,competition,gastronomie",
+        "atmosphere": "Classique et technique, cadre de grande maison lyonnaise où la précision culinaire prime sur l'effusion décorative."
+    },
+    {
+        "name": "Le Vieux Logis",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin en Périgord.",
+        "description": "Vincent Arnould perpétue une cuisine périgourdine noble dans un relais de chasse du XVIIe siècle.",
+        "baseScore": 8.8,
+        "searchKeywords": "vieux logis,perigord,dordogne,1 etoile,classique",
+        "atmosphere": "Relais de chasse du XVIIe, poutres apparentes, cheminées en pierre et jardins d'herbes aromatiques en Dordogne profonde."
+    },
+    {
+        "name": "Les Crayères",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin à Reims dans un château.",
+        "description": "Philippe Mille exprime une cuisine raffinée au cœur d'un domaine viticole, avec les meilleurs champagnes en cave.",
+        "baseScore": 9.3,
+        "searchKeywords": "les crayeres,reims,champagne,philippe mille,2 etoiles",
+        "atmosphere": "Château champenois somptueux, parc arboré et intérieur Belle Époque, atmosphère de grand domaine viticole aristocratique."
+    },
+    {
+        "name": "Auberge du Père Bise",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin au bord du lac d'Annecy.",
+        "description": "Jean Sulpice orchestre une cuisine lacustre et alpine avec subtilité au bord du lac d'Annecy.",
+        "baseScore": 9.2,
+        "searchKeywords": "pere bise,annecy,lac,jean sulpice,2 etoiles",
+        "atmosphere": "Lacustre et sereine, terrasse au bord du lac d'Annecy avec vue sur les montagnes, douceur alpestre et lumière changeante."
+    },
+    {
+        "name": "Le Jardin des Sens",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin à Montpellier.",
+        "description": "Jacques et Laurent Pourcel renouvellent leur cuisine méditerranéenne créative avec constance et excellence.",
+        "baseScore": 8.9,
+        "searchKeywords": "jardin des sens,pourcel,montpellier,mediterraneen",
+        "atmosphere": "Méditerranéenne et végétale, jardins luxuriants et terrasse ombragée dans un mas rénové aux portes de Montpellier."
+    },
+    {
+        "name": "Maison Guérard – Les Prés d'Eugénie",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Eugénie-les-Bains.",
+        "description": "Michel Guérard est l'inventeur de la cuisine minceur. Ses Prés d'Eugénie sont une institution thermale gastronomique.",
+        "baseScore": 9.5,
+        "searchKeywords": "guerard,pres d'eugenie,eugenie-les-bains,3 etoiles,minceur",
+        "atmosphere": "Thermale et napoléonienne, demeure impériale des Landes entourée de jardins à la française, bien-être et gastronomie fusionnés."
+    },
+    {
+        "name": "Le Môle Passédat",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à Marseille.",
+        "description": "Gérald Passédat propose une cuisine marine unique, nourrie par la Méditerranée marseillaise.",
+        "baseScore": 9.6,
+        "searchKeywords": "mole passedat,marseille,3 etoiles,mer,mediterraneen",
+        "atmosphere": "Marine et azuréenne, villa perchée sur les hauteurs de Marseille avec vue panoramique sur les îles et la Méditerranée."
+    },
+    {
+        "name": "Christopher Coutanceau",
+        "status": "certified",
+        "stars": 3,
+        "michelinInfo": "3 étoiles Michelin à La Rochelle, cuisine marine et durable.",
+        "description": "Christopher Coutanceau s'engage pour une pêche durable et célèbre la mer avec une cuisine d'exception.",
+        "baseScore": 9.5,
+        "searchKeywords": "coutanceau,la rochelle,mer,durable,3 etoiles",
+        "atmosphere": "Marine et engagée, villa contemporaine face à l'Atlantique à La Rochelle, lumière de mer et sérénité océanique."
+    },
+    {
+        "name": "Maison Trabet",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin en Alsace.",
+        "description": "Marc Haeberlin et Gilles Brault perpétuent une cuisine alsacienne d'une grande finesse à Illhaeusern.",
+        "baseScore": 9.2,
+        "searchKeywords": "trabet,alsace,2 etoiles,finesse",
+        "atmosphere": "Alsacienne et intime, maison à colombages au bord de l'eau, jardin et terrasse au calme dans le village d'Illhaeusern."
+    },
+    {
+        "name": "Le Pressoir d'Argent – Gordon Ramsay",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin à Bordeaux.",
+        "description": "Gordon Ramsay réinterprète les classiques bordelais dans l'InterContinental Le Grand Hôtel de Bordeaux.",
+        "baseScore": 9.1,
+        "searchKeywords": "pressoir d'argent,gordon ramsay,bordeaux,2 etoiles",
+        "atmosphere": "Grand Hôtel bordelais fastueux, décor néoclassique et dorures dans le palace de la Place de la Comédie face au Grand Théâtre."
+    },
+    {
+        "name": "Claude Darroze",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin à Villeneuve-de-Marsan.",
+        "description": "Table landaise de référence, perpétuant les recettes gasconnes avec une exécution irréprochable.",
+        "baseScore": 9.0,
+        "searchKeywords": "claude darroze,gascogne,landes,2 etoiles,foie gras",
+        "atmosphere": "Landaise et familiale, auberge gasconnes aux volumes généreux, chaleur du Sud-Ouest et générosité dans chaque salle."
+    },
+    {
+        "name": "La Table de l'Espadon – Ritz Paris",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin au Ritz Paris.",
+        "description": "Nicolas Sale propose une cuisine française classique et raffinée dans le cadre mythique du Ritz Paris.",
+        "baseScore": 9.4,
+        "searchKeywords": "espadon,ritz,paris,2 etoiles,classique",
+        "atmosphere": "Mythique et palatiale, jardin d'hiver du Ritz aux roses et colonnes dorées, Place Vendôme pour horizon, luxe absolu."
+    },
+    {
+        "name": "Sushi B",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "2 étoiles Michelin, meilleur sushi de Paris.",
+        "description": "Masaki Nagao propose un omakase d'exception avec les meilleurs poissons directement importés du Japon.",
+        "baseScore": 9.5,
+        "searchKeywords": "sushi b,omakase,japonais,2 etoiles,nagao",
+        "atmosphere": "Japonaise pure et rituelle, comptoir en bois de cèdre face au maître sushi, silence respectueux et concentration totale."
+    },
+    {
+        "name": "Jin",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, sushi bar parisien.",
+        "description": "Takuya Watanabe offre un omakase pur et minimaliste au cœur du Palais-Royal.",
+        "baseScore": 9.1,
+        "searchKeywords": "jin,sushi,omakase,palais-royal,japonais",
+        "atmosphere": "Minimaliste et sacrée, comptoir de huit places en sous-sol du Palais-Royal, intimité totale et silence quasi monastique."
+    },
+    {
+        "name": "Komatsubaki",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine japonaise authentique.",
+        "description": "Table japonaise très confidentielle servant une cuisine de la mer dans la plus pure tradition nippone.",
+        "baseScore": 8.9,
+        "searchKeywords": "komatsubaki,japonais,mer,confidentiel,1 etoile",
+        "atmosphere": "Confidentielle et traditionnelle, salle épurée aux tonalités bois et pierre dans la plus pure tradition de l'izakaya raffinée."
+    },
+    {
+        "name": "ES",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine de la terre et du végétal.",
+        "description": "Takayuki Honjo compose une cuisine poétique autour des légumes et herbes dans un cadre épuré du VIIe.",
+        "baseScore": 8.9,
+        "searchKeywords": "es,honjo,vegetal,poetique,7eme",
+        "atmosphere": "Épurée et méditative, salle blanche et sobre dans le VIIe, cadre neutre laissant toute la place à la poésie de l'assiette."
+    },
+    {
+        "name": "Neige d'Été",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine légère et inventive.",
+        "description": "Hideki Nishi propose une cuisine franco-japonaise légère et colorée aux accents printaniers.",
+        "baseScore": 8.8,
+        "searchKeywords": "neige d'ete,nishi,franco-japonais,leger,inventif",
+        "atmosphere": "Printanière et aérienne, tons blancs et pastels, salle lumineuse et légère dans le XVe qui évoque la sérénité d'un matin de neige."
+    },
+    {
+        "name": "Caillebotte",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, bistronomie française exigeante.",
+        "description": "Franck Baranger propose une bistronomie rigoureuse et savoureuse dans un cadre boisé et chaleureux.",
+        "baseScore": 8.7,
+        "searchKeywords": "caillebotte,baranger,bistronomie,chaleureux",
+        "atmosphere": "Bistrot contemporain chaleureux, boiseries claires et carreaux de ciment, ambiance de restaurant de quartier haut de gamme dans le IXe."
+    },
+    {
+        "name": "Oxalis",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, nature et terroir.",
+        "description": "Un chef passionné de botanique compose des menus tout autour des plantes et des saisons dans le XIe.",
+        "baseScore": 8.6,
+        "searchKeywords": "oxalis,botanique,plantes,saison,11eme",
+        "atmosphere": "Botanique et vivante, végétation présente jusqu'à table, salle atelier naturelle dans le XIe aux accents de serre expérimentale."
+    },
+    {
+        "name": "Le Sergent Recruteur",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin sur l'île Saint-Louis.",
+        "description": "Cuisine narrative et immersive dans un décor médiéval sur l'île Saint-Louis, service en menu unique.",
+        "baseScore": 8.8,
+        "searchKeywords": "sergent recruteur,ile saint-louis,narratif,immersif",
+        "atmosphere": "Médiévale et immersive, cave voûtée du XVIIe siècle sur l'île Saint-Louis, décor de cabinet de curiosités et ambiance de conte."
+    },
+    {
+        "name": "Flora Danica",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "1 étoile Michelin, cuisine scandinave à Paris.",
+        "description": "La maison danoise des Champs-Élysées revisite la cuisine nordique avec des produits français d'excellence.",
+        "baseScore": 8.7,
+        "searchKeywords": "flora danica,scandinave,nordique,danois,champs-elysees",
+        "atmosphere": "Nordique et lumineuse, bois clairs, plantes et design scandinave sur les Champs-Élysées, sérénité hygge au cœur de Paris."
+    },
+    {
+        "name": "Cédric Burtin",
+        "status": "certified",
+        "stars": 2,
+        "michelinInfo": "Restaurant 2 étoiles Michelin à Saint-Rémy en Bourgogne.",
+        "description": "Cédric Burtin propose une cuisine créative moderne mettant en valeur les produits de Bourgogne avec précision et élégance.",
+        "baseScore": 9.3,
+        "searchKeywords": "cedric burtin,bourgogne,saint remy,2 etoiles michelin,cuisine creative",
+        "atmosphere": "Bourguignonne et contemporaine, maison de village rénovée avec goût, terrasse sur jardin et atmosphère de villégiature gastronomique."
+    },
+    {
+        "name": "Cédric",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "Restaurant 1 étoile Michelin à Weinstadt en Allemagne.",
+        "description": "Cuisine moderne et raffinée avec une approche contemporaine et des produits de saison dans une atmosphère élégante.",
+        "baseScore": 8.8,
+        "searchKeywords": "cedric,weinstadt,allemagne,1 etoile michelin,cuisine moderne",
+        "atmosphere": "Élégante et contemporaine, décor épuré aux tonalités neutres dans un cadre allemand soigné, service attentionné et professionnel."
+    },
+    {
+        "name": "La Table de Cédric Béchade - L'Auberge Basque",
+        "status": "certified",
+        "stars": 1,
+        "michelinInfo": "Restaurant 1 étoile Michelin au Pays Basque.",
+        "description": "Cuisine créative inspirée du terroir basque avec une approche moderne et des produits locaux de grande qualité.",
+        "baseScore": 9.0,
+        "searchKeywords": "cedric bechade,auberge basque,pays basque,1 etoile michelin,cuisine creative",
+        "atmosphere": "Basque et authentique, maison de pays aux murs blancs et volets rouge sang, chaleur de l'accueil basque et vue sur les Pyrénées."
+    },
+    {
+        "name": "Café de Flore",
+        "status": "certified",
+        "stars": 0,
+        "michelinInfo": "Institution parisienne recommandée sans étoile Michelin.",
+        "description": "Adresse mythique pour l'histoire et l'ambiance, mais la cuisine reste souvent jugée très moyenne par rapport aux prix pratiqués.",
+        "baseScore": 5.8,
+        "searchKeywords": "cafe de flore,saint germain,paris,historique",
+        "atmosphere": "Mythique et animée, terrasse de la rive gauche couverte aux premières loges de Saint-Germain-des-Prés, célèbre pour ses habitués historiques."
+    },
+    {
+        "name": "Pink Mamma",
+        "status": "certified",
+        "stars": 0,
+        "michelinInfo": "Restaurant populaire non étoilé du Guide Michelin.",
+        "description": "Décor spectaculaire et ambiance animée, mais cuisine italienne simple et irrégulière selon les avis.",
+        "baseScore": 5.9,
+        "searchKeywords": "pink mamma,big mamma,italien,paris",
+        "atmosphere": "Spectaculaire et instagrammable, décor végétal sur cinq étages, ambiance festive et bruyante dans le quartier Pigalle."
+    },
+    {
+        "name": "Bouillon Pigalle",
+        "status": "certified",
+        "stars": 0,
+        "michelinInfo": "Brasserie populaire recommandée sans étoile.",
+        "description": "Cuisine traditionnelle accessible mais expérience culinaire très standard.",
+        "baseScore": 5.6,
+        "searchKeywords": "bouillon pigalle,bouillon,paris",
+        "atmosphere": "Bouillon rétro populaire et bruyant, grandes tablées serrées, service rapide et cadre brasserie parisienne des années 1900 reconstitué."
+    },
+    {
+        "name": "Le Relais de l'Entrecôte",
+        "status": "certified",
+        "stars": 0,
+        "michelinInfo": "Concept emblématique non étoilé Michelin.",
+        "description": "Steak-frites populaire mais expérience répétitive avec peu de créativité culinaire.",
+        "baseScore": 5.5,
+        "searchKeywords": "relais entrecote,steak frites,paris",
+        "atmosphere": "Bistrot parisien classique sans chichi, service mécanique en tablier blanc, salle dense et ronronnante à toute heure du soir."
+    },
+    {
+        "name": "Au Pied de Cochon",
+        "status": "certified",
+        "stars": 0,
+        "michelinInfo": "Brasserie historique non étoilée Michelin.",
+        "description": "Cuisine traditionnelle correcte mais souvent jugée touristique et inégale.",
+        "baseScore": 5.3,
+        "searchKeywords": "au pied de cochon,brasserie,paris",
+        "atmosphere": "Brasserie des Halles ouverte 24h/24, décor Belle Époque coloré, atmosphère nocturne et touristique autour de l'ancien marché central."
+    },
+    {
+        "name": "Hard Rock Cafe Paris",
+        "status": "certified",
+        "stars": 0,
+        "michelinInfo": "Restaurant touristique sans distinction Michelin.",
+        "description": "Expérience surtout axée sur l'ambiance et la marque plutôt que sur la qualité gastronomique.",
+        "baseScore": 5.0,
+        "searchKeywords": "hard rock cafe,paris,americain,touristique",
+        "atmosphere": "Musicale et commerciale, memorabilia rock partout aux murs, son fort et clientèle touristique internationale, expérience de marque globale."
+    }
+]
