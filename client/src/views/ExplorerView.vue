@@ -335,7 +335,7 @@ import { computed, markRaw, onMounted, ref } from "vue";
 import axios from "axios";
 import { Award, Check, Flame, Globe, Leaf, Play, Star } from "lucide-vue-next";
 
-const API_URL = "http://localhost:8000/api";
+const API_URL = "/api";
 
 const iconMap = {
   check: markRaw(Check),
