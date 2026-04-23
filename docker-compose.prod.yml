@@ -24,7 +24,7 @@ services:
       APP_ENV: prod
       APP_SECRET: "5e8e7a8e7a8e7a8e7a8e7a8e7a8e7a8e"
       MISTRAL_API_KEY: "${MISTRAL_API_KEY}"
-      CORS_ALLOW_ORIGIN: "^http://54\.37\.159\.216(:[0-9]+)?$$"
+      CORS_ALLOW_ORIGIN: "^https?://54.37.159.216(:[0-9]+)?$$"
     depends_on:
       - db
     networks:
