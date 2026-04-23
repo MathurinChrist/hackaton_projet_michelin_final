@@ -1,4 +1,10 @@
 <template>
+  <AppLayout />
+</template>
+
+<script setup>
+import AppLayout from "./layouts/AppLayout.vue";
+</script>
   <div class="min-h-screen bg-white text-michelin-dark font-sans selection:bg-michelin-red selection:text-white">
     
     <Navbar 

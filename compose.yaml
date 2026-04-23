@@ -1,0 +1,62 @@
+services:
+  php:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    working_dir: /app
+    volumes:
+      - ./server:/app
+    ports:
+      - "8000:8000"
+    environment:
+      APP_ENV: dev
+      DATABASE_URL: "postgresql://app:!ChangeMe!@database:5432/app?serverVersion=16&charset=utf8"
+    depends_on:
+      - database
+    networks:
+      - michelin_shared
+
+  database:
+    image: postgres:${POSTGRES_VERSION:-16}-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-!ChangeMe!}
+      POSTGRES_USER: ${POSTGRES_USER:-app}
+    ports:
+      - "5432:5432"
+    volumes:
+      - database_data:/var/lib/postgresql/data:rw
+    networks:
+      - michelin_shared
+
+  mailer:
+    image: axllent/mailpit
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    environment:
+      MP_SMTP_AUTH_ACCEPT_ANY: 1
+      MP_SMTP_AUTH_ALLOW_INSECURE: 1
+    networks:
+      - michelin_shared
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - php
+    networks:
+      - michelin_shared
+
+volumes:
+  database_data:
+    # Réutilise le volume déjà créé par le compose du dossier server (évite de perdre la DB)
+    name: server_database_data
+
+networks:
+  michelin_shared:
+    external: true
+    name: michelin_shared

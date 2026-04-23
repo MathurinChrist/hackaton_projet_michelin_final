@@ -1,0 +1,14 @@
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    networks:
+      - michelin_shared
+
+networks:
+  michelin_shared:
+    external: true
+    name: michelin_shared
