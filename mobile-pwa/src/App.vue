@@ -2,13 +2,10 @@
   <div class="min-h-screen bg-white text-michelin-dark font-sans selection:bg-michelin-red selection:text-white pb-24">
     
     <!-- Top Header Mobile -->
-    <header class="sticky top-0 bg-[#BA0B2F] h-[60px] flex items-center justify-between px-6 z-50 shadow-md">
-      <div class="flex items-center gap-2">
-        <span class="text-white font-black tracking-tighter text-lg italic">MICHELIN</span>
-        <span class="text-white/80 font-light text-xs tracking-widest uppercase">Mobile</span>
-      </div>
-      <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-        <Menu class="w-5 h-5 text-white" />
+    <header class="sticky top-0 bg-[#BA0B2F] h-[60px] flex items-center justify-center px-6 z-50 shadow-md">
+      <div class="flex items-center gap-2" style="font-family:'Noto Sans', sans-serif; letter-spacing:0.04em;">
+        <span class="text-white font-bold text-lg">MICHELIN</span>
+        <span class="text-white font-light text-lg opacity-90">GUIDE</span>
       </div>
     </header>
 
@@ -69,6 +66,7 @@
 
     <FactCheck v-else-if="currentTab === 'factcheck'" />
     <Vibes v-else-if="currentTab === 'vibes'" />
+    <Snack v-else-if="currentTab === 'snack'" />
 
     <button
       v-if="currentTab !== 'explorer'"
@@ -85,8 +83,11 @@
           <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center flex-shrink-0">
              <span class="text-michelin-dark font-black text-xl italic">M</span>
           </div>
-          <div>
-             <h4 class="font-bold text-sm">Installer Michelin Verify</h4>
+          <div class="flex-1">
+             <div class="text-white flex items-center gap-1 mb-1" style="font-family:'Noto Sans', sans-serif; letter-spacing:0.04em;">
+                <span class="font-bold text-sm">MICHELIN</span>
+                <span class="font-light text-sm opacity-90">GUIDE</span>
+             </div>
              <p class="text-[10px] text-white/50">Accédez à l'expertise Michelin en un clic depuis votre écran d'accueil.</p>
           </div>
        </div>
@@ -110,11 +111,12 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
-import { Menu, Search as SearchIcon, Star, ArrowUpRight, ArrowLeft } from 'lucide-vue-next'
+import { Search as SearchIcon, Star, ArrowUpRight, ArrowLeft } from 'lucide-vue-next'
 import { useApp } from './composables/useApp'
 import BottomNav from './components/layout/BottomNav.vue'
 import FactCheck from './components/FactCheck.vue'
 import Vibes from './components/Vibes.vue'
+import Snack from './components/Snack.vue'
 
 const {
     currentTab,

@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import { Compass, ShieldCheck, Sparkles } from 'lucide-vue-next'
+import { Compass, ShieldCheck, Sparkles, PlayCircle } from 'lucide-vue-next'
 
 defineProps({
   modelValue: String
@@ -31,7 +31,8 @@ defineEmits(['update:modelValue'])
 const mobileTabs = [
   { id: 'explorer', label: 'Explorer', icon: Compass },
   { id: 'factcheck', label: 'Verify', icon: ShieldCheck },
-  { id: 'vibes', label: 'Vibes', icon: Sparkles }
+  { id: 'vibes', label: 'Vibes', icon: Sparkles },
+  { id: 'snack', label: 'Snack', icon: PlayCircle }
 ]
 </script>
 

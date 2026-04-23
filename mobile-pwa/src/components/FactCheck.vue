@@ -123,12 +123,29 @@
              </div>
         </div>
         
-        <button 
-            @click="analysis = null"
-            class="w-full py-5 rounded-2xl border-2 border-michelin-dark/5 text-[10px] font-black uppercase tracking-widest text-michelin-dark/40"
-        >
-            Nouvelle analyse
-        </button>
+        <div class="flex gap-4">
+          <button 
+              @click="analysis = null"
+              class="flex-1 py-5 rounded-2xl border-2 border-michelin-dark/5 text-[10px] font-black uppercase tracking-widest text-michelin-dark"
+          >
+              Nouvelle analyse
+          </button>
+          
+          <div class="flex gap-2">
+            <button 
+                @click="shareWhatsApp"
+                class="w-14 h-14 rounded-2xl bg-[#25D366] text-white flex items-center justify-center shadow-lg active:scale-90 transition-all"
+            >
+                <MessageCircle class="w-6 h-6" />
+            </button>
+            <button 
+                @click="shareSMS"
+                class="w-14 h-14 rounded-2xl bg-[#007AFF] text-white flex items-center justify-center shadow-lg active:scale-90 transition-all"
+            >
+                <Send class="w-6 h-6" />
+            </button>
+          </div>
+        </div>
     </div>
 
     <!-- Recent History Mobile -->
@@ -165,7 +182,7 @@
 
 <script setup>
 import { useFactCheck } from '../composables/useFactCheck'
-import { Search, Star, ShieldCheck, AlertTriangle, X, ChevronRight, Loader2 } from 'lucide-vue-next'
+import { Search, Star, ShieldCheck, AlertTriangle, X, ChevronRight, Loader2, MessageCircle, Send } from 'lucide-vue-next'
 
 const {
     viralUrl,
@@ -176,6 +193,18 @@ const {
     analyzeUrl,
     recallAnalysis
 } = useFactCheck()
+
+const shareWhatsApp = () => {
+    if (!analysis.value) return
+    const text = `🚨 Michelin Verify : J'ai testé ce resto ! \n\n🚩 ${analysis.value.name} \n⭐️ Note : ${analysis.value.score}/10\n📝 Verdict : ${analysis.value.advisory}\n\nPlus d'infos sur l'application Michelin Guide.`
+    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank')
+}
+
+const shareSMS = () => {
+    if (!analysis.value) return
+    const text = `Michelin Verify : ${analysis.value.name} a obtenu la note de ${analysis.value.score}/10 ! Verdict : ${analysis.value.advisory}.`
+    window.location.href = `sms:?body=${encodeURIComponent(text)}`
+}
 </script>
 
 <style scoped>
