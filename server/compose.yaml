@@ -1,22 +1,6 @@
-services:
-  php:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    working_dir: /app
-    volumes:
-      - ./:/app
-    ports:
-      - "8000:8000"
-    environment:
-      APP_ENV: dev
-      DATABASE_URL: "postgresql://app:!ChangeMe!@database:5432/app?serverVersion=16&charset=utf8"
-    networks:
-      - michelin_shared
-    depends_on:
-      - database
 
-  ###> doctrine/doctrine-bundle ###
+services:
+###> doctrine/doctrine-bundle ###
   database:
     image: postgres:${POSTGRES_VERSION:-16}-alpine
     environment:
@@ -24,8 +8,6 @@ services:
       # You should definitely change the password in production
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-!ChangeMe!}
       POSTGRES_USER: ${POSTGRES_USER:-app}
-    networks:
-      - michelin_shared
     volumes:
       - database_data:/var/lib/postgresql/data:rw
       # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
@@ -33,11 +15,6 @@ services:
 ###< doctrine/doctrine-bundle ###
 
 volumes:
-  ###> doctrine/doctrine-bundle ###
+###> doctrine/doctrine-bundle ###
   database_data:
 ###< doctrine/doctrine-bundle ###
-
-networks:
-  michelin_shared:
-    external: true
-    name: michelin_shared
