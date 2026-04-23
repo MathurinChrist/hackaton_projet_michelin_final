@@ -6,6 +6,7 @@ services:
     working_dir: /app
     volumes:
       - ./server:/app
+      - ./restaurant.sql:/app/restaurant.sql:ro
     ports:
       - "8000:8000"
     environment:
@@ -48,6 +49,13 @@ services:
       - "5173:80"
     depends_on:
       - php
+    networks:
+      - michelin_shared
+
+  adminer:
+    image: adminer:latest
+    ports:
+      - 8080:8080
     networks:
       - michelin_shared
 
