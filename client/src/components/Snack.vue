@@ -12,7 +12,7 @@
       @keydown.up.prevent="prev"
       @keydown.down.prevent="next"
     >
-      <div class="aspect-10/16 w-full overflow-hidden rounded-2xl bg-black">
+      <div class="aspect-11/16 w-full overflow-hidden rounded-2xl bg-black">
         <video
           ref="videoEl"
           class="h-3/4 w-full object-cover"
@@ -23,7 +23,7 @@
           loop
           preload="metadata"
         />
-        <div class="mt-4">
+        <div class="mt-4 mx-2">
           <h2 class="text-xl font-semibold text-slate-50">
             {{ currentReel?.title ?? "Snack" }}
           </h2>
